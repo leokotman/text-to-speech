@@ -1,0 +1,14 @@
+{
+    "name": "text-to-speech",
+    "version": "1.0.0",
+    "description": "Create an MP3 audio file from text content using Google TTS",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "to-speech": "node index.js"
+    },
+    "dependencies": {
+        "axios": "^1.9.0",
+        "google-tts-api": "^2.0.2"
+    }
+}
